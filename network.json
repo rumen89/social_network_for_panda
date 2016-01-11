@@ -1,0 +1,22 @@
+{
+    "ruci@mail.com": [
+        "ciki@mail.com",
+        "koki@mail.com"
+    ],
+    "koki@mail.com": [
+        "ruci@mail.com",
+        "panda@panda.com"
+    ],
+    "kiki@panda.com": [
+        "ciki@mail.com",
+        "panda@panda.com"
+    ],
+    "ciki@mail.com": [
+        "kiki@panda.com",
+        "ruci@mail.com"
+    ],
+    "panda@panda.com": [
+        "kiki@panda.com",
+        "koki@mail.com"
+    ]
+}

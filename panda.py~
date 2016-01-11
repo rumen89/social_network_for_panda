@@ -17,10 +17,5 @@ class Panda:
         return '{} {} {}'.format(self.__name, self.__email, self.__gender)
 
     def __repr__(self):
-        return self.__str__()
-
-    def __eq__(self, other_panda):
-        return self.__str__() == str(other_panda)
-
-    def __hash__(self):
-        return hash(self.__str__())
+        return 'Panda(name: {}, email: {}, gender: {})'\
+            .format(self.__name, self.__email, self.__gender)

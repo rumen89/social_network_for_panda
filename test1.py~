@@ -1,0 +1,6 @@
+f = open('network.json', 'r')
+net = f.read()
+
+f.close()
+
+print(net)

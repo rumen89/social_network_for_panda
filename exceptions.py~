@@ -1,0 +1,9 @@
+class PandaAlreadyThere(Exception):
+    def __init__(self, value):
+        self.__value = value
+
+    def __str__(self):
+        return 'This Panda is already in the network.'
+
+    def __repr__(self):
+        return self.__str__()
